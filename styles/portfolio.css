@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 nav {
@@ -14,7 +14,7 @@ nav li {
     
 }
 
-.btn-pm {
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     font-size: 20px;
@@ -47,4 +47,19 @@ nav a {
 .design {
     color: #FD6E0A;
 
+}
+
+/* header related style */
+
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+
+.banner .profile-pic{
+    width: 500px;
 }
