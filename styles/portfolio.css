@@ -128,3 +128,48 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
 }
+
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.about-info-cintainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+.info-detail{
+    font-weight: bolder;
+    
+}
+.info{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 100px;
+}
+
+.section-title{
+    margin-top: 50px ;
+    padding: 30px 30px;
+    text-align: center;
+}
+.achieve{
+    text-align: center;
+}
+
+.skill-container{
+    display: flex;
+    margin-top: 60px;
+    gap:65px;
+    
+}
+
+.skills{
+    padding:30px;
+    
+}
+
