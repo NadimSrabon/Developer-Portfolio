@@ -129,47 +129,71 @@ nav a {
     background: #FFF8F3;
 }
 
-main{
+main {
     max-width: 1140px;
     margin: auto;
 }
 
-.about-info-cintainer{
+.about-info-cintainer {
     display: flex;
     justify-content: space-around;
 }
 
-.about-info{
+.about-info {
     text-align: center;
 }
-.info-detail{
+
+.info-detail {
     font-weight: bolder;
-    
+
 }
-.info{
+
+.info {
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 100px;
 }
 
-.section-title{
-    margin-top: 50px ;
+.section-title {
+    margin-top: 50px;
     padding: 30px 30px;
     text-align: center;
 }
-.achieve{
+
+.achieve {
     text-align: center;
 }
 
-.skill-container{
+.skill-container {
     display: flex;
     margin-top: 60px;
-    gap:65px;
-    
+    gap: 65px;
+
+
+
 }
 
-.skills{
-    padding:30px;
-    
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
 }
 
+/* resume part */
+
+.resume {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.column-title {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
